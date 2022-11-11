@@ -1,3 +1,39 @@
+TABELAS
+
+*tabela-users
+
+*Campos laravel
+nome
+telefone
+email
+senha
+
+
+*tabela anuncios
+titulo
+valor
+metragem_total
+estado
+cidade
+cep
+complemento
+tipo
+energia_solar
+reuso_agua
+vagas_carro_eletrico
+material_sustentavel
+teto_verde
+pomar
+metragem_areaverde
+info_complementar
+ID_user
+fossas-eco
+poço_art
+
+*tabela-interesses
+id_anuncio
+id_user_interessado
+cotacao(estrelinhas 1 a 5)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
