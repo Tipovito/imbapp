@@ -43,8 +43,8 @@
     <div class="container bg-verde py-5 mt-5 d-flex">
         <h2>Encontre seu imóvel:</h2>
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Tipo
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -53,12 +53,13 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
         </div>
-
-        <form class="d-flex">
-            <input class="form-control" type="search" placeholder="Digite uma Cidade, Bairro ou rua"
-                aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
+        <div>
+            <form class="d-flex">
+                <input class="form-control" type="text"placeholder="Digite uma Cidade, Bairro ou rua"
+                    aria-label="text">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
     </div>
 
     <main>

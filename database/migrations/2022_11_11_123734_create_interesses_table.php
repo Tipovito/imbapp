@@ -13,11 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tabela_interesses', function (Blueprint $table) {
+        Schema::create('interesses', function (Blueprint $table) {
             $table->id();
-            $table->integer('id_anuncios');
-            $table->integer('id_user_interessado');
-            $table->integer('cotacao');
+            $table->integer('id_anuncio');
+            $table->integer('id_user');
+            $table->integer('cotacao')->nullable();
             $table->timestamps();
         });
     }
