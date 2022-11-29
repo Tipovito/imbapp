@@ -15,4 +15,11 @@
 }
 h2 {
     color: #10780f;
+    font-size: 1.5rem;
+    margin-top: -25px;
+}
+
+.form-control {
+    margin-right: 11.5rem;
+    margin-left: 17.5rem;
 }
