@@ -1,6 +1,3 @@
-.txt-verde {
-    color: #84FF8C;
-}
 .bg-verde {
     background-color: #84FF8C;
 }
@@ -30,8 +27,6 @@
     margin-right: 15.25rem;
 }
 
-
-
 .form-control {
     margin-right: 11.5rem;
     margin-left: 17.5rem;
@@ -42,8 +37,6 @@
     padding-right: 2.25rem;
 }
 
-/* Textos e headings */
-
 h2 {
     color: #10780f;
     font-family: 'Roboto', sans-serif;
@@ -53,10 +46,6 @@ h2 {
     margin-left: 1.25rem;
 }
 
-h3 {
-    color: #10780f;
-    font-family: 'Roboto', sans-serif;
-}
 
 
 
@@ -66,15 +55,30 @@ h3 {
     padding-bottom: 3.25rem;
 }
 
+h3 {
+  color: #10780f;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 5.25rem;
+  padding-bottom: 1.5rem;
+  padding-top: 2.0rem;
+}
+
+p {
+padding-left: 3.25rem;
+padding-right: 35.25rem;
+}
+
+
 /* Conteúdo Rodapé */
 
-/* .site-footer
+.site-footer
 {
   background-color:#84FF8C;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
+  margin-top: 60.5rem;
 }
 .site-footer hr
 {
@@ -146,14 +150,14 @@ h3 {
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
   }
 }
 @media (max-width:767px)
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:0%;
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
@@ -230,4 +234,4 @@ h3 {
     margin-right:0;
     font-weight:600
   }
-} */
+} 

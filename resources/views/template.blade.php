@@ -75,12 +75,12 @@
 
     <!-- place footer here -->
 
-    {{-- <footer class="site-footer">
+  <footer class="site-footer">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
-              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is</p>
             </div>
   
             <div class="col-xs-6 col-md-3">
@@ -111,8 +111,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-           <a href="#">Scanfcode</a>.
+              <p class="copyright-text">Copyright &copy; 2017 All Rights </a>.
               </p>
             </div>
   
@@ -126,7 +125,7 @@
             </div>
           </div>
         </div>
-  </footer> --}}
+  </footer> 
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
