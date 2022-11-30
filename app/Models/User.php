@@ -58,15 +58,4 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
-
-    public function anuncios()
-    {
-        return $this->hasMany(Post::class);
-    }
-
-    public function interesses()
-    {
-        return $this->hasMany(Post::class);
-    }
-
 }
