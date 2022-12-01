@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="bg-bege">
@@ -79,7 +83,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
-              <h6>About</h6>
+              <h6>Sobre</h6>
               <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is</p>
             </div>
   

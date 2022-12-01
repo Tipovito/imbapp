@@ -12,6 +12,7 @@ class Interesse extends Model
         'id_anuncios',
         'id_user_interessado',
         'cotacao',
+        'telefone_interessado',
     ];
 
     public function user(){

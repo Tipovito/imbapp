@@ -27,9 +27,15 @@ class Anuncio extends Model
         'metragem_areaverde',
         'id_users',
         'info_complementar',
+        'telefone_vendedor',
     ];
 
     public function users(){
         return $this->belongsTo('App\Models\User');
+    }
+
+    public function interesses()
+    {
+        return $this->hasMany(Interesse::class);
     }
 }

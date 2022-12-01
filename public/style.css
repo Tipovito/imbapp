@@ -19,12 +19,12 @@
 /* Conteúdo barra/pesquisa */
 
 .container-pesq {
+    height: 10.5rem;
+    width: 87.5rem;
     padding-top: 3.25rem/* 20px */;
-    padding-bottom: 3.25rem/* 20px */;
     margin-top: 4.25rem;
     margin-bottom: 25.25rem;
     margin-left: 15.25rem;
-    margin-right: 15.25rem;
 }
 
 .form-control {
@@ -41,9 +41,10 @@ h2 {
     color: #10780f;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    margin-top: -2.25rem;
-    margin-bottom: 2.25rem;
-    margin-left: 1.25rem;
+    width: 14.25rem;
+    height: 1.5rem;
+    margin-top: -2.0rem;
+    margin-left: 1.75rem;
 }
 
 
@@ -52,20 +53,32 @@ h2 {
 /*  Conteúdo principal  */
 
 .apresentacao {
+    height: 20.5rem;
+    width: 100%;
     padding-bottom: 3.25rem;
 }
 
 h3 {
   color: #10780f;
   font-family: 'Roboto', sans-serif;
-  padding-left: 5.25rem;
-  padding-bottom: 1.5rem;
-  padding-top: 2.0rem;
+  font-size: 2.0rem;
+  /* padding-left: 10.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 2.0rem; */
+  padding: 2.0rem 0 0.5rem 10.5rem;
+}
+
+h4 {
+  color: #10780f;
+  padding-left: 10.5rem;
+  padding-bottom: 0.25rem;
+  padding: 0 0 0.25rem 10.5rem;
 }
 
 p {
-padding-left: 3.25rem;
-padding-right: 35.25rem;
+  font-family: 'Poppins', sans-serif;
+  width: 36.5rem;
+  margin-left: 10.5rem;
 }
 
 

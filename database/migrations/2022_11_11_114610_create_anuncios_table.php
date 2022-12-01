@@ -15,8 +15,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tabela_anuncios', function (Blueprint $table) {
+        Schema::create('anuncios', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('id_user');
+            $table->foreign('id_user')->references('id')->on('users');
             $table->float('valor');
             $table->float('metragem_total');
             $table->string('estado');
@@ -35,6 +37,7 @@ return new class extends Migration
             $table->float('metragem_areaverde')->nullable();
             $table->integer('id_users');
             $table->string('info_complementar');
+            $table->string('telefone_vendedor')->nullable();
             $table->timestamps();
             
             
