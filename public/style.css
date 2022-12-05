@@ -12,7 +12,8 @@
 /*   Conteúdo navbar   */
 
 .navbar {
-    width: 100%;
+    margin-left: 0.0rem;
+    margin-right: 0.0rem;
     height: 4.5rem;
 }
 
@@ -20,11 +21,11 @@
 
 .container-pesq {
     height: 10.5rem;
-    width: 87.5rem;
     padding-top: 3.25rem/* 20px */;
     margin-top: 4.25rem;
     margin-bottom: 25.25rem;
-    margin-left: 15.25rem;
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
 }
 
 .form-control {
@@ -54,7 +55,6 @@ h2 {
 
 .apresentacao {
     height: 20.5rem;
-    width: 100%;
     padding-bottom: 3.25rem;
 }
 
