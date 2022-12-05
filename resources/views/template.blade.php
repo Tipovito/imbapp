@@ -41,9 +41,22 @@
                             <a class="nav-link active" href="#" aria-current="page">Anunciar <span
                                     class="visually-hidden">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sair</a>
-                        </li>
+                        @if (auth()->user())
+                            <li class="nav-item">
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                    <a class="nav-link" href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                  this.closest('form').submit(); ">
+                                        SAIR
+                                    </a>
+                                </form>
+                            </li>
+                        @else
+                            <li class="nav-item">
+                                <a href="{{ route('login') }}">login</a>
+                            </li>
+                        @endif
                     </ul>
                 </div>
             </div>
@@ -79,57 +92,57 @@
 
     <!-- place footer here -->
 
-  <footer class="site-footer">
+    <footer class="site-footer">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <h6>Sobre</h6>
-              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Sobre</h6>
+                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
             </div>
-  
-            <div class="col-xs-6 col-md-3">
-              <h6>Categories</h6>
-              <ul class="footer-links">
-                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
-              </ul>
-            </div>
-  
-            <div class="col-xs-6 col-md-3">
-              <h6>Quick Links</h6>
-              <ul class="footer-links">
-                <li><a href="http://scanfcode.com/about/">About Us</a></li>
-                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-              </ul>
-            </div>
-          </div>
-          <hr>
+            <hr>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2017 All Rights </a>.
-              </p>
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights </a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
             </div>
-  
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <ul class="social-icons">
-                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-              </ul>
-            </div>
-          </div>
         </div>
-  </footer> 
+    </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

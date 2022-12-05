@@ -30,7 +30,8 @@
 
 .form-control {
     margin-right: 11.5rem;
-    margin-left: 17.5rem;
+    margin-left: 2.5rem;
+    width: 20.0rem;
 }
 
 .btn-secundary {
@@ -47,7 +48,12 @@ h2 {
     margin-top: -2.0rem;
     margin-left: 1.75rem;
 }
-
+.btn-secondary {
+ background-color: #ffffff;
+ color: #84FF8C;
+ width: 20.0rem;
+ text-align: left;
+}
 
 
 
