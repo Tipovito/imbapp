@@ -17,13 +17,19 @@
     height: 4.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+  margin-top: -0.5rem;
+}
+
 /* Conteúdo barra/pesquisa */
 
 .container-pesq {
     height: 10.5rem;
     padding-top: 3.25rem/* 20px */;
     margin-top: 4.25rem;
-    margin-bottom: 25.25rem;
+    margin-bottom: 1.25rem;
     margin-left: 13.5rem;
     margin-right: 13.5rem;
 }
@@ -31,12 +37,17 @@
 .form-control {
     margin-right: 11.5rem;
     margin-left: 2.5rem;
+    margin-top: 2.5rem;
     width: 20.0rem;
+    height: 2.5rem;
+    border-color: #fff;
 }
 
-.btn-secundary {
-    padding-left: 0.25rem;
-    padding-right: 2.25rem;
+
+.btn-outline-success {
+  height: 2.5rem;
+  margin-top: 2.5rem;
+  margin-left: -8.5rem;
 }
 
 h2 {
@@ -48,11 +59,20 @@ h2 {
     margin-top: -2.0rem;
     margin-left: 1.75rem;
 }
+
 .btn-secondary {
  background-color: #ffffff;
  color: #84FF8C;
+ height: 2.5rem;
  width: 20.0rem;
  text-align: left;
+ border-color: #fff;
+}
+
+.dropdown {
+  margin-left: -14.5rem;
+  margin-top: 2.5rem;
+  height: 2.5rem;
 }
 
 
@@ -62,6 +82,7 @@ h2 {
 .apresentacao {
     height: 20.5rem;
     padding-bottom: 3.25rem;
+    margin-top: 2.5rem;
 }
 
 h3 {
@@ -81,10 +102,15 @@ h4 {
   padding: 0 0 0.25rem 10.5rem;
 }
 
-p {
+.p-sus {
   font-family: 'Poppins', sans-serif;
   width: 36.5rem;
   margin-left: 10.5rem;
+}
+
+.carousel-inner{
+  height: 30.5rem;
+  width: 100%;
 }
 
 
@@ -164,7 +190,7 @@ p {
 .copyright-text
 {
   margin:0
-}
+};
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
@@ -254,3 +280,7 @@ p {
     font-weight:600
   }
 } 
+
+/* Carrossel */
+
+

@@ -62,29 +62,7 @@
             </div>
         </nav>
     </header>
-    {{-- Barra de pesquisa/imóveis --}}
-    <div class="container-pesq bg-verde d-flex">
-        <h2>Encontre seu imóvel:</h2>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Tipo
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </div>
-        <div>
-            <form class="d-flex">
-                <input class="form-control" type="text"placeholder="Digite uma Cidade, Bairro ou rua"
-                    aria-label="text">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-        </div>
-    </div>
-
+    
     <main>
         @yield('conteudo')
 
@@ -95,31 +73,25 @@
     <footer class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-md-6">
                     <h6>Sobre</h6>
-                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is</p>
+                    <p class="text-justify">Somos uns vagabundos e trabalhamos com preguiça</p>
                 </div>
 
-                <div class="col-xs-6 col-md-3">
-                    <h6>Categories</h6>
+                <div class="col-md-3">
+                    <h6>Sustentabilidade</h6>
                     <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                        <li><a href="#">Conceito</a></li>
+                        <li><a href="#">Ações sustentáveis</a></li>
+                        <li><a href="#">IMB sustentável</a></li>
                     </ul>
                 </div>
 
-                <div class="col-xs-6 col-md-3">
-                    <h6>Quick Links</h6>
+                <div class="col-md-3">
+                    <h6>Contatos</h6>
                     <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
-                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                        <li>Ligue agora: <b>12 99999 9999</b></li>
+                        <li><a href="#">contato@imbimoveis.com</a></li>
                     </ul>
                 </div>
             </div>
