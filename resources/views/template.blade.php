@@ -77,7 +77,6 @@
                     <h6>Sobre</h6>
                     <p class="text-justify">Somos uns vagabundos e trabalhamos com preguiça</p>
                 </div>
-
                 <div class="col-md-3">
                     <h6>Sustentabilidade</h6>
                     <ul class="footer-links">
@@ -86,7 +85,6 @@
                         <li><a href="#">IMB sustentável</a></li>
                     </ul>
                 </div>
-
                 <div class="col-md-3">
                     <h6>Contatos</h6>
                     <ul class="footer-links">
@@ -103,7 +101,6 @@
                     <p class="copyright-text">Copyright &copy; 2017 All Rights </a>.
                     </p>
                 </div>
-
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
                         <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>

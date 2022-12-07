@@ -12,9 +12,9 @@
 /*   Conteúdo navbar   */
 
 .navbar {
-    margin-left: 0.0rem;
-    margin-right: 0.0rem;
+    /* margin-right: -1.0rem; */
     height: 4.5rem;
+    width: 1903px;
 }
 
 a {
@@ -60,7 +60,11 @@ a {
     margin-left: 1.75rem;
 }
 
-
+.filtro-tipo {
+  font-size: 1.25rem;
+  margin-right: 1.5rem;
+  margin-top: -2.15rem;
+}
 
 .btn-secondary {
  background-color: #ffffff;
@@ -78,28 +82,25 @@ a {
 }
 
 
+
 /*  Conteúdo principal  */
 
 .apresentacao {
     height: 20.5rem;
     padding-bottom: 3.25rem;
     margin-top: 2.5rem;
+    width: 1903px;
 }
 
 .title-apresentacao {
   color: #10780f;
   font-family: 'Roboto', sans-serif;
   font-size: 1.75rem;
-  /* padding-left: 10.5rem;
-  padding-bottom: 0.5rem;
-  padding-top: 2.0rem; */
   padding: 2.0rem 0 0.5rem 10.5rem;
 }
 
 .sub-apresentacao {
   color: #10780f;
-  /* padding-left: 10.5rem;
-  padding-bottom: 0.25rem; */
   padding: 0 0 0.25rem 10.5rem;
   font-size: 1.5rem;
 }
@@ -115,6 +116,17 @@ a {
   width: 100%;
 }
 
+.cards-1 {
+  margin-top: 3.5rem;
+  margin-left: 14.5rem;
+  justify-content: center;
+}
+
+.c-vendas {
+  margin-bottom: 5.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.75rem;
+}
 
 /* Conteúdo Rodapé */
 
@@ -126,6 +138,7 @@ a {
   line-height:24px;
   color:#737373;
   margin-top: 30.5rem;
+  /* margin-right: -1.0rem; */
 }
 .site-footer hr
 {
@@ -282,7 +295,3 @@ a {
     font-weight:600
   }
 } 
-
-/* Carrossel */
-
-
