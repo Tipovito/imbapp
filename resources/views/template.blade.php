@@ -48,7 +48,7 @@
                                     <a class="nav-link" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                   this.closest('form').submit(); ">
-                                        SAIR
+                                        Sair
                                     </a>
                                 </form>
                             </li>

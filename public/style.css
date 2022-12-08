@@ -14,13 +14,16 @@
 .navbar {
     /* margin-right: -1.0rem; */
     height: 4.5rem;
-    width: 1903px;
 }
 
 a {
   text-decoration: none;
   color: #000;
   margin-top: -0.5rem;
+}
+
+.nav-link {
+  color: #000;
 }
 
 /* Conteúdo barra/pesquisa */
@@ -43,7 +46,6 @@ a {
     border-color: #fff;
 }
 
-
 .btn-outline-success {
   height: 2.5rem;
   margin-top: 2.5rem;
@@ -60,10 +62,19 @@ a {
     margin-left: 1.75rem;
 }
 
+.filtro-onde {
+  font-size: 1.15rem;
+  margin-right: 3.5rem;
+  margin-top: -2.15rem;
+  width: 3.5rem;
+  height: 1.5rem;
+}
+
 .filtro-tipo {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-right: 1.5rem;
   margin-top: -2.15rem;
+  width: 5.5rem;
 }
 
 .btn-secondary {
@@ -73,6 +84,7 @@ a {
  width: 20.0rem;
  text-align: left;
  border-color: #fff;
+ margin-top: 0.5rem;
 }
 
 .dropdown {
@@ -83,10 +95,10 @@ a {
 
 
 
-/*  Conteúdo principal  */
+/*  Container de apresentação */
 
 .apresentacao {
-    height: 20.5rem;
+    height: 40.5rem;
     padding-bottom: 3.25rem;
     margin-top: 2.5rem;
     width: 1903px;
@@ -111,20 +123,25 @@ a {
   margin-left: 10.5rem;
 }
 
+/* Carroussel e cards */
+
 .carousel-inner{
   height: 30.5rem;
-  width: 100%;
+  width: 60%;
+}
+
+.priv {
+  text-align: left;
 }
 
 .cards-1 {
   margin-top: 3.5rem;
-  margin-left: 14.5rem;
   justify-content: center;
 }
 
 .c-vendas {
   margin-bottom: 5.5rem;
-  margin-right: 1.5rem;
+  margin-left: 13.5rem;
   font-size: 1.75rem;
 }
 

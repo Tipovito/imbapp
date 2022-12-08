@@ -1,32 +1,9 @@
 @extends('template')
 
 @section('conteudo')
-    {{-- Barra de pesquisa/imóveis --}}
-    <div class="container-pesq bg-verde d-flex">
-        <h1 class="filtro-busca">Encontre seu imóvel:</h1>
-        <div class="dropdown">
-            <h2 class="filtro-tipo">Qual tipo?</h2>
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Tipo
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </div>
-        <div>
-            <form class="d-flex">
-                <input class="form-control" type="text"placeholder="Digite uma Cidade, Bairro ou rua" aria-label="text">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-        </div>
-    </div>
-
     {{-- Carrossel --}}
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="shadow-lg bg-body rounded">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
@@ -40,12 +17,23 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="/img/gatinho.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="priv">ablueablueablue</h5>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="/img/gatinho.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/gatinho.jpeg" class="d-block w-100" alt="...">
+                        <img src="/img/lamp.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>O privilégio de ter um gatinho verde.</p>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -62,7 +50,7 @@
         </div>
     </div>
     <div>
-        <div class="apresentacao bg-verde">
+        <div class="apresentacao bg-verde col-md-12">
             <h3 class="title-apresentacao">Preparamos tudo para seu e nosso futuro!</h3>
             <h4 class="sub-apresentacao">Da nossa casa para o mundo</h4>
             <p class="p-sus">Temos como objetivo construir sonhos dentro de um plano sustentável
@@ -73,11 +61,12 @@
             </p>
         </div>
     </div>
+
+    <h4 class="c-vendas mt-5">Casas à venda</h4>
     <section class="row cards-1">
-        <h4 class="c-vendas">Casas á venda</h4>
-        <div class="col md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="/img/gatinho.jpeg" class="card-img-top" alt="...">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/img/casa-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h6 class="card-title">Card title</h6>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -89,9 +78,9 @@
                 </div>
             </div>
         </div>
-        <div class="col md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="/img/gatinho.jpeg" class="card-img-top" alt="...">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/img/casa-2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h6 class="card-title">Card title</h6>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -103,9 +92,9 @@
                 </div>
             </div>
         </div>
-        <div class="col md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="/img/gatinho.jpeg" class="card-img-top" alt="...">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/img/casa-3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h6 class="card-title">Card title</h6>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
