@@ -108,19 +108,33 @@ a {
   color: #10780f;
   font-family: 'Roboto', sans-serif;
   font-size: 1.75rem;
-  padding: 2.0rem 0 0.5rem 10.5rem;
+  padding: 2.0rem 0 0.5rem 7.5rem;
 }
 
 .sub-apresentacao {
   color: #10780f;
-  padding: 0 0 0.25rem 10.5rem;
+  padding: 0 0 0.25rem 7.5rem;
   font-size: 1.5rem;
 }
+
+.title-apresentacao-2 {
+  color: #10780f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+  padding: 1.5rem 0 0 37.5rem;
+}
+
+.sub-apresentacao-2 {
+  color: #10780f;
+  padding: 0 0 0.25rem 37.5rem;
+  font-size: 1.5rem;
+}
+
 
 .p-sus {
   font-family: 'Poppins', sans-serif;
   width: 36.5rem;
-  margin-left: 10.5rem;
+  padding: 0.0rem 0 0.5rem 7.5rem;
 }
 
 /* Carroussel e cards */

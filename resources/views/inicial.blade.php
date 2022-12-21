@@ -59,6 +59,9 @@
                 e também no meio ambiente, de maneira que deixemos um legado sustentável
                 para nossas futuras gerações.
             </p>
+            <h3 class="title-apresentacao-2">Trabalhando sempre em armônia com a natureza</h3>
+            <h4 class="sub-apresentacao-2">Da nossa casa para o mundo</h4>
+
         </div>
     </div>
 
